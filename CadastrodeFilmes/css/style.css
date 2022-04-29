@@ -9,7 +9,7 @@ body {
   background-color: #000;
   background-size: cover;
   background-position: center top;
-  background-image: url("https://feriasdecinema.com/wp-content/uploads/2018/07/poderoso-chefao-cenarios-italia.jpg");
+  background-image: url("https://ae01.alicdn.com/kf/HTB128h1igoQMeJjy0Foq6AShVXau/Hollywood-Cinema-Filme-Preto-Filme-Filmagens-Fundo-de-Vinil-pano-de-Computador-impresso-pano-de-fundo.jpg");
   background-repeat: no-repeat;
   color: #fff;
   font-size: 1.5rem;
@@ -80,4 +80,7 @@ img {
   left: 20rem;
 }
 
-
+.filme {
+  padding: 1.5rem;
+    width: 13rem;
+}

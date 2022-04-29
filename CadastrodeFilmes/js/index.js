@@ -14,7 +14,7 @@ let listaDeTitulos = [
     'Truque de Mestre',
     'Cantando na Chuva',
     'Harry Potter e o Prisioneiro de Askban',
-    'Jogador Numero 1'
+    'Jogador Nº 1'
 ]
 
 // ! DOM  - DOCUMENT OBJETC MODEL
@@ -22,3 +22,10 @@ let listaDeTitulos = [
 let catagolo = document.querySelector('#catalogo')
 let i = 0
 let erro = document.querySelector('#erro')
+
+for (i; i < listaDeFilmes.length; i++) {
+    catagolo.innerHTML += `<div class="filme">
+        <img src=${listaDeFilmes[i]}><figcaption>${listaDeTitulos[i]}
+
+    </div>`
+}
