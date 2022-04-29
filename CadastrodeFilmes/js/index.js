@@ -16,3 +16,9 @@ let listaDeTitulos = [
     'Harry Potter e o Prisioneiro de Askban',
     'Jogador Numero 1'
 ]
+
+// ! DOM  - DOCUMENT OBJETC MODEL
+
+let catagolo = document.querySelector('#catalogo')
+let i = 0
+let erro = document.querySelector('#erro')
